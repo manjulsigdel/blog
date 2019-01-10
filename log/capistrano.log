@@ -471,3 +471,932 @@ perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
  DEBUG [917bd216] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
  DEBUG [917bd216] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
  DEBUG [917bd216] 	fatal: unable to fork
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 13:32:35 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3f83cd96] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [3f83cd96] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 13:54:32 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [88e14ee7] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [88e14ee7] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 13:58:12 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [45cf9f37] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [45cf9f37] Command: /usr/bin/env mkdir -p /tmp
+  INFO [772330fa] Finished in 15.350 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [747a4b79] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [747a4b79] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [3997be50] Finished in 0.967 seconds with exit status 0 (successful).
+  INFO [1fa4a838] Running /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [1fa4a838] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD )
+ DEBUG [b0b9b0d5] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-introcept.sh': Permission denied
+ DEBUG [b0b9b0d5] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-introcept.sh': Permission denied
+ DEBUG [b0b9b0d5] 	fatal: unable to fork
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 14:10:52 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6a932e61] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [6a932e61] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 14:13:14 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8a3639d3] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [8a3639d3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8136cd40] Finished in 14.574 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [fefe48e1] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [fefe48e1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [a0d8762a] Finished in 0.811 seconds with exit status 0 (successful).
+  INFO [5c1ebc95] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [5c1ebc95] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [7ef3aad2] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [7ef3aad2] Finished in 2.259 seconds with exit status 0 (successful).
+  INFO [338ca43b] Running /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/app/staging/shared /home/prospero/public_html/#{fetch(:application)}/app/staging/releases as prospero@prosperousnepal.com
+ DEBUG [338ca43b] Command: /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/app/staging/shared /home/prospero/public_html/#{fetch(:application)}/app/staging/releases
+ DEBUG [6c5df9a4] 	jailshell: -c: line 0: syntax error near unexpected token `('
+jailshell: -c: line 0: `/usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/app/staging/shared /home/prospero/public_html/#{fetch(:application)}/app/staging/releases'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 15:56:52 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3bb79cdc] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [3bb79cdc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bacac714] Finished in 12.446 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [d5c4f46f] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [d5c4f46f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [a9d89a32] Finished in 0.919 seconds with exit status 0 (successful).
+  INFO [1eaef981] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [1eaef981] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [6511e7e0] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [6511e7e0] Finished in 2.149 seconds with exit status 0 (successful).
+  INFO [3940f427] Running /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/app/staging/shared /home/prospero/public_html/#{fetch(:application)}/app/staging/releases as prospero@prosperousnepal.com
+ DEBUG [3940f427] Command: /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/app/staging/shared /home/prospero/public_html/#{fetch(:application)}/app/staging/releases
+ DEBUG [26f4feb9] 	jailshell: -c: line 0: syntax error near unexpected token `('
+jailshell: -c: line 0: `/usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/app/staging/shared /home/prospero/public_html/#{fetch(:application)}/app/staging/releases'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 15:58:29 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c7f67dc8] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [c7f67dc8] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 15:58:52 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9a8b7271] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [9a8b7271] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a3f41e26] Finished in 6.888 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [13706f5b] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [13706f5b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [aad09039] Finished in 0.816 seconds with exit status 0 (successful).
+  INFO [4ccaa889] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [4ccaa889] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [01803441] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [01803441] Finished in 2.252 seconds with exit status 0 (successful).
+  INFO [0ff9020d] Running /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/shared /home/prospero/public_html/#{fetch(:application)}/releases as prospero@prosperousnepal.com
+ DEBUG [0ff9020d] Command: /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/shared /home/prospero/public_html/#{fetch(:application)}/releases
+ DEBUG [9173d296] 	jailshell: -c: line 0: syntax error near unexpected token `('
+jailshell: -c: line 0: `/usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/shared /home/prospero/public_html/#{fetch(:application)}/releases'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 15:59:36 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e394df00] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [e394df00] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 15:59:56 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1456a0e2] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [1456a0e2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9f43adba] Finished in 7.490 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [8021b033] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [8021b033] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [8c6783c6] Finished in 0.917 seconds with exit status 0 (successful).
+  INFO [e368ba5c] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [e368ba5c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [ec14ddf0] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [ec14ddf0] Finished in 2.223 seconds with exit status 0 (successful).
+  INFO [135255c7] Running /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/shared /home/prospero/public_html/#{fetch(:application)}/releases as prospero@prosperousnepal.com
+ DEBUG [135255c7] Command: /usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/shared /home/prospero/public_html/#{fetch(:application)}/releases
+ DEBUG [fce82338] 	jailshell: -c: line 0: syntax error near unexpected token `('
+jailshell: -c: line 0: `/usr/bin/env mkdir -p /home/prospero/public_html/#{fetch(:application)}/shared /home/prospero/public_html/#{fetch(:application)}/releases'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 16:03:48 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2fa1587b] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [2fa1587b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 16:04:13 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3783b84b] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [3783b84b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [87e09761] Finished in 16.573 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [1c004e8b] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [1c004e8b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [aecc8e53] Finished in 0.853 seconds with exit status 0 (successful).
+  INFO [12d27e74] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [12d27e74] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [b658d713] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [b658d713] Finished in 1.597 seconds with exit status 0 (successful).
+  INFO [0e3d68c1] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases as prospero@prosperousnepal.com
+ DEBUG [0e3d68c1] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases
+  INFO [d9cdc346] Finished in 0.804 seconds with exit status 0 (successful).
+  INFO [0e3636b9] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs as prospero@prosperousnepal.com
+ DEBUG [0e3636b9] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs
+  INFO [4f11ff92] Finished in 0.821 seconds with exit status 0 (successful).
+ DEBUG [c17a712b] Running [ -f /home/prospero/public_html/blog/current/REVISION ] as prospero@prosperousnepal.com
+ DEBUG [c17a712b] Command: [ -f /home/prospero/public_html/blog/current/REVISION ]
+ DEBUG [f47c777a] Finished in 0.829 seconds with exit status 1 (failed).
+ DEBUG [a79a4937] Running [ -f /home/prospero/public_html/blog/repo/HEAD ] as prospero@prosperousnepal.com
+ DEBUG [a79a4937] Command: [ -f /home/prospero/public_html/blog/repo/HEAD ]
+ DEBUG [bf75502b] Finished in 1.024 seconds with exit status 1 (failed).
+ DEBUG [09dca3cf] Running if test ! -d /home/prospero/public_html/blog; then echo "Directory does not exist '/home/prospero/public_html/blog'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [09dca3cf] Command: if test ! -d /home/prospero/public_html/blog; then echo "Directory does not exist '/home/prospero/public_html/blog'" 1>&2; false; fi
+ DEBUG [c7e3dcf1] Finished in 0.822 seconds with exit status 0 (successful).
+  INFO [ea6a90af] Running /usr/bin/env git clone --mirror https://github.com/manjulsigdel/blog.git /home/prospero/public_html/blog/repo as prospero@prosperousnepal.com
+ DEBUG [ea6a90af] Command: cd /home/prospero/public_html/blog && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git clone --mirror https://github.com/manjulsigdel/blog.git /home/prospero/public_html/blog/repo )
+ DEBUG [5e1fc663] 	Cloning into bare repository '/home/prospero/public_html/blog/repo'...
+  INFO [5e1fc663] Finished in 1.923 seconds with exit status 0 (successful).
+ DEBUG [195cd9f5] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [195cd9f5] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [1e47a61f] Finished in 0.738 seconds with exit status 0 (successful).
+  INFO [d920658b] Running /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git as prospero@prosperousnepal.com
+ DEBUG [d920658b] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git )
+  INFO [ca1000d3] Finished in 0.691 seconds with exit status 0 (successful).
+  INFO [6039dd04] Running /usr/bin/env git remote update --prune as prospero@prosperousnepal.com
+ DEBUG [6039dd04] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f738b83f] 	Fetching origin
+  INFO [f738b83f] Finished in 1.433 seconds with exit status 0 (successful).
+ DEBUG [a97f3220] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [a97f3220] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [b3656c68] Finished in 0.753 seconds with exit status 0 (successful).
+  INFO [3f8b52fb] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110101936 as prospero@prosperousnepal.com
+ DEBUG [3f8b52fb] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110101936 )
+  INFO [b3143401] Finished in 0.814 seconds with exit status 0 (successful).
+  INFO [7de8e21a] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110101936 as prospero@prosperousnepal.com
+ DEBUG [7de8e21a] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110101936 )
+  INFO [ead99dd6] Finished in 0.826 seconds with exit status 0 (successful).
+ DEBUG [1eed16d8] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [1eed16d8] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [fa636872] Finished in 0.740 seconds with exit status 0 (successful).
+ DEBUG [aa660b5a] Running /usr/bin/env git rev-list --max-count=1 master as prospero@prosperousnepal.com
+ DEBUG [aa660b5a] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [18095386] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b
+ DEBUG [18095386] Finished in 0.850 seconds with exit status 0 (successful).
+ DEBUG [59babcd9] Running if test ! -d /home/prospero/public_html/blog/releases/20190110101936; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110101936'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [59babcd9] Command: if test ! -d /home/prospero/public_html/blog/releases/20190110101936; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110101936'" 1>&2; false; fi
+ DEBUG [b5c17152] Finished in 1.021 seconds with exit status 0 (successful).
+  INFO [592a8a74] Running /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION as prospero@prosperousnepal.com
+ DEBUG [592a8a74] Command: cd /home/prospero/public_html/blog/releases/20190110101936 && /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION
+  INFO [17834bcf] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [848de734] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110101936/storage /home/prospero/public_html/blog/releases/20190110101936/storage/framework as prospero@prosperousnepal.com
+ DEBUG [848de734] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110101936/storage /home/prospero/public_html/blog/releases/20190110101936/storage/framework
+  INFO [0e881ed4] Finished in 0.921 seconds with exit status 0 (successful).
+ DEBUG [f132d1db] Running [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [f132d1db] Command: [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/app ]
+ DEBUG [ddc44f15] Finished in 0.828 seconds with exit status 1 (failed).
+ DEBUG [660a6d84] Running [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [660a6d84] Command: [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/app ]
+ DEBUG [1feed551] Finished in 0.830 seconds with exit status 0 (successful).
+  INFO [3b49f104] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/app as prospero@prosperousnepal.com
+ DEBUG [3b49f104] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/app
+  INFO [1d637471] Finished in 0.830 seconds with exit status 0 (successful).
+  INFO [e9462af2] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110101936/storage/app as prospero@prosperousnepal.com
+ DEBUG [e9462af2] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110101936/storage/app
+  INFO [6b188990] Finished in 0.758 seconds with exit status 0 (successful).
+ DEBUG [df2782b0] Running [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [df2782b0] Command: [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache ]
+ DEBUG [0192809d] Finished in 0.838 seconds with exit status 1 (failed).
+ DEBUG [1086869f] Running [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [1086869f] Command: [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache ]
+ DEBUG [91810e17] Finished in 0.860 seconds with exit status 0 (successful).
+  INFO [a52e5a12] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [a52e5a12] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache
+  INFO [faa227ce] Finished in 0.746 seconds with exit status 0 (successful).
+  INFO [5e0ab4fe] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [5e0ab4fe] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110101936/storage/framework/cache
+  INFO [55242611] Finished in 0.750 seconds with exit status 0 (successful).
+ DEBUG [67cd4695] Running [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [67cd4695] Command: [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions ]
+ DEBUG [c6ae8090] Finished in 0.812 seconds with exit status 1 (failed).
+ DEBUG [05839bfe] Running [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [05839bfe] Command: [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions ]
+ DEBUG [02734d19] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [01bfedd8] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [01bfedd8] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions
+  INFO [d9d614a8] Finished in 0.930 seconds with exit status 0 (successful).
+  INFO [b77a9a9e] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [b77a9a9e] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110101936/storage/framework/sessions
+  INFO [d0956f3e] Finished in 0.845 seconds with exit status 0 (successful).
+ DEBUG [8e54641c] Running [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [8e54641c] Command: [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views ]
+ DEBUG [65b68d0d] Finished in 0.984 seconds with exit status 1 (failed).
+ DEBUG [4a32d72b] Running [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [4a32d72b] Command: [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views ]
+ DEBUG [1a4d7214] Finished in 1.029 seconds with exit status 0 (successful).
+  INFO [6858f340] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [6858f340] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views
+  INFO [befe376f] Finished in 1.246 seconds with exit status 0 (successful).
+  INFO [288f455b] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [288f455b] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110101936/storage/framework/views
+  INFO [6697c42b] Finished in 1.003 seconds with exit status 0 (successful).
+ DEBUG [a6339083] Running [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [a6339083] Command: [ -L /home/prospero/public_html/blog/releases/20190110101936/storage/logs ]
+ DEBUG [b388cde5] Finished in 1.022 seconds with exit status 1 (failed).
+ DEBUG [a1395ad4] Running [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [a1395ad4] Command: [ -d /home/prospero/public_html/blog/releases/20190110101936/storage/logs ]
+ DEBUG [0e1ea3b1] Finished in 1.021 seconds with exit status 0 (successful).
+  INFO [840c7487] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/logs as prospero@prosperousnepal.com
+ DEBUG [840c7487] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110101936/storage/logs
+  INFO [eaced020] Finished in 1.021 seconds with exit status 0 (successful).
+  INFO [41cefaf2] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110101936/storage/logs as prospero@prosperousnepal.com
+ DEBUG [41cefaf2] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110101936/storage/logs
+  INFO [89b7ab36] Finished in 0.921 seconds with exit status 0 (successful).
+ DEBUG [6877349d] Running if test ! -d /home/prospero/public_html/blog/releases/20190110101936; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110101936'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [6877349d] Command: if test ! -d /home/prospero/public_html/blog/releases/20190110101936; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110101936'" 1>&2; false; fi
+ DEBUG [bbad2e12] Finished in 0.947 seconds with exit status 0 (successful).
+  INFO [b17959e9] Running /usr/bin/env composer install --no-dev --quiet --prefer-dist --optimize-autoloader as prospero@prosperousnepal.com
+ DEBUG [b17959e9] Command: cd /home/prospero/public_html/blog/releases/20190110101936 && /usr/bin/env composer install --no-dev --quiet --prefer-dist --optimize-autoloader
+ DEBUG [b537e518] 	
+ DEBUG [b537e518] 	                                                                                           
+ DEBUG [b537e518] 	  [Symfony\Component\Process\Exception\RuntimeException]                                   
+ DEBUG [b537e518] 	  The Process class relies on proc_open, which is not available on your PHP installation.  
+ DEBUG [b537e518] 	                                                                                           
+ DEBUG [b537e518] 	
+install [--prefer-source] [--prefer-dist] [--dry-run] [--dev] [--no-dev] [--no-custom-installers] [--no-autoloader] [--no-scripts] [--no-progress] [--no-suggest] [-v|vv|vvv|--verbose] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--ignore-platform-reqs] [--] [<packages>]...
+
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 16:09:17 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e2e5b354] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [e2e5b354] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c9bab865] Finished in 16.208 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [29dcf65a] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [29dcf65a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [7cac05df] Finished in 0.757 seconds with exit status 0 (successful).
+  INFO [3d54886c] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [3d54886c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [b342a084] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [b342a084] Finished in 2.187 seconds with exit status 0 (successful).
+  INFO [a730497a] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases as prospero@prosperousnepal.com
+ DEBUG [a730497a] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases
+  INFO [0199e415] Finished in 1.253 seconds with exit status 0 (successful).
+  INFO [59d59a6a] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs as prospero@prosperousnepal.com
+ DEBUG [59d59a6a] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs
+  INFO [ada41ac7] Finished in 0.914 seconds with exit status 0 (successful).
+ DEBUG [f971ad86] Running [ -f /home/prospero/public_html/blog/current/REVISION ] as prospero@prosperousnepal.com
+ DEBUG [f971ad86] Command: [ -f /home/prospero/public_html/blog/current/REVISION ]
+ DEBUG [3b979bb1] Finished in 1.021 seconds with exit status 1 (failed).
+ DEBUG [37c19e0a] Running [ -f /home/prospero/public_html/blog/repo/HEAD ] as prospero@prosperousnepal.com
+ DEBUG [37c19e0a] Command: [ -f /home/prospero/public_html/blog/repo/HEAD ]
+ DEBUG [b841d662] Finished in 0.899 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/prospero/public_html/blog/repo
+ DEBUG [7bf37061] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [7bf37061] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [e6ab8b24] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [2035c175] Running /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git as prospero@prosperousnepal.com
+ DEBUG [2035c175] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git )
+  INFO [c67e1968] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [32810f4f] Running /usr/bin/env git remote update --prune as prospero@prosperousnepal.com
+ DEBUG [32810f4f] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [55ca5de5] 	Fetching origin
+  INFO [55ca5de5] Finished in 1.432 seconds with exit status 0 (successful).
+ DEBUG [d72ad2c4] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [d72ad2c4] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [50abbec5] Finished in 0.919 seconds with exit status 0 (successful).
+  INFO [f7dc15de] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110102441 as prospero@prosperousnepal.com
+ DEBUG [f7dc15de] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110102441 )
+  INFO [9b18d807] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [3e837f0e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110102441 as prospero@prosperousnepal.com
+ DEBUG [3e837f0e] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110102441 )
+  INFO [743a941e] Finished in 1.124 seconds with exit status 0 (successful).
+ DEBUG [fa54fffe] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [fa54fffe] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [6a371b61] Finished in 1.123 seconds with exit status 0 (successful).
+ DEBUG [e46c470c] Running /usr/bin/env git rev-list --max-count=1 master as prospero@prosperousnepal.com
+ DEBUG [e46c470c] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [2bc524c3] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b
+ DEBUG [2bc524c3] Finished in 0.757 seconds with exit status 0 (successful).
+ DEBUG [466cafce] Running if test ! -d /home/prospero/public_html/blog/releases/20190110102441; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110102441'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [466cafce] Command: if test ! -d /home/prospero/public_html/blog/releases/20190110102441; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110102441'" 1>&2; false; fi
+ DEBUG [0133191c] Finished in 0.878 seconds with exit status 0 (successful).
+  INFO [347fa6b2] Running /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION as prospero@prosperousnepal.com
+ DEBUG [347fa6b2] Command: cd /home/prospero/public_html/blog/releases/20190110102441 && /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION
+  INFO [a7ea3814] Finished in 0.879 seconds with exit status 0 (successful).
+  INFO [19be0ae8] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110102441/storage /home/prospero/public_html/blog/releases/20190110102441/storage/framework as prospero@prosperousnepal.com
+ DEBUG [19be0ae8] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110102441/storage /home/prospero/public_html/blog/releases/20190110102441/storage/framework
+  INFO [5ff90236] Finished in 0.856 seconds with exit status 0 (successful).
+ DEBUG [29fdbf07] Running [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [29fdbf07] Command: [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/app ]
+ DEBUG [bbaba833] Finished in 0.921 seconds with exit status 1 (failed).
+ DEBUG [3971849e] Running [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [3971849e] Command: [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/app ]
+ DEBUG [d6d22b3c] Finished in 0.744 seconds with exit status 0 (successful).
+  INFO [b44a856b] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/app as prospero@prosperousnepal.com
+ DEBUG [b44a856b] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/app
+  INFO [81cc6dfa] Finished in 0.992 seconds with exit status 0 (successful).
+  INFO [131a9b7e] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110102441/storage/app as prospero@prosperousnepal.com
+ DEBUG [131a9b7e] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110102441/storage/app
+  INFO [d2466827] Finished in 0.836 seconds with exit status 0 (successful).
+ DEBUG [5b065137] Running [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [5b065137] Command: [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache ]
+ DEBUG [14a0710d] Finished in 0.839 seconds with exit status 1 (failed).
+ DEBUG [76570ee6] Running [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [76570ee6] Command: [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache ]
+ DEBUG [6c955c02] Finished in 0.830 seconds with exit status 0 (successful).
+  INFO [9901a436] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [9901a436] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache
+  INFO [c8535a86] Finished in 0.870 seconds with exit status 0 (successful).
+  INFO [84e9bd89] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [84e9bd89] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110102441/storage/framework/cache
+  INFO [4ac4653b] Finished in 0.848 seconds with exit status 0 (successful).
+ DEBUG [203e936e] Running [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [203e936e] Command: [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions ]
+ DEBUG [5c270aac] Finished in 0.770 seconds with exit status 1 (failed).
+ DEBUG [7b647423] Running [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [7b647423] Command: [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions ]
+ DEBUG [ed7413bd] Finished in 1.037 seconds with exit status 0 (successful).
+  INFO [019e223f] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [019e223f] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions
+  INFO [399a7a9c] Finished in 1.227 seconds with exit status 0 (successful).
+  INFO [2d6ee44c] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [2d6ee44c] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110102441/storage/framework/sessions
+  INFO [d7c641cb] Finished in 0.967 seconds with exit status 0 (successful).
+ DEBUG [103a8989] Running [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [103a8989] Command: [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views ]
+ DEBUG [42113b9e] Finished in 0.978 seconds with exit status 1 (failed).
+ DEBUG [a7c55b72] Running [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [a7c55b72] Command: [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views ]
+ DEBUG [4278df83] Finished in 1.028 seconds with exit status 0 (successful).
+  INFO [ddf89c28] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [ddf89c28] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views
+  INFO [942a02e9] Finished in 0.914 seconds with exit status 0 (successful).
+  INFO [6a5a8d30] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [6a5a8d30] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110102441/storage/framework/views
+  INFO [8d004ad2] Finished in 0.919 seconds with exit status 0 (successful).
+ DEBUG [32fbae2d] Running [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [32fbae2d] Command: [ -L /home/prospero/public_html/blog/releases/20190110102441/storage/logs ]
+ DEBUG [26594c7f] Finished in 0.834 seconds with exit status 1 (failed).
+ DEBUG [31175c57] Running [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [31175c57] Command: [ -d /home/prospero/public_html/blog/releases/20190110102441/storage/logs ]
+ DEBUG [9ce03b92] Finished in 0.856 seconds with exit status 0 (successful).
+  INFO [155e1a3d] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/logs as prospero@prosperousnepal.com
+ DEBUG [155e1a3d] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110102441/storage/logs
+  INFO [24807b07] Finished in 0.870 seconds with exit status 0 (successful).
+  INFO [e8544f4a] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110102441/storage/logs as prospero@prosperousnepal.com
+ DEBUG [e8544f4a] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110102441/storage/logs
+  INFO [050d1b30] Finished in 0.918 seconds with exit status 0 (successful).
+  INFO [68f5c109] Running /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110102441/bootstrap/cache/ as prospero@prosperousnepal.com
+ DEBUG [68f5c109] Command: /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110102441/bootstrap/cache/
+  INFO [ce364f5f] Finished in 0.917 seconds with exit status 0 (successful).
+  INFO [106e115b] Running /usr/bin/env chgrp -R www-data /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110102441/bootstrap/cache/ as prospero@prosperousnepal.com
+ DEBUG [106e115b] Command: /usr/bin/env chgrp -R www-data /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110102441/bootstrap/cache/
+ DEBUG [36e16209] 	chgrp: invalid group: ‘www-data’
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:25:22 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [645b5961] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [645b5961] Command: /usr/bin/env mkdir -p /tmp
+  INFO [906fe4ea] Finished in 13.266 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [2d0ddd43] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [2d0ddd43] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [8ffc326a] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [e7ff68ec] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [e7ff68ec] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [5224dbaa] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [5224dbaa] Finished in 2.252 seconds with exit status 0 (successful).
+  INFO [4737680a] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases as prospero@prosperousnepal.com
+ DEBUG [4737680a] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases
+  INFO [25a1e24e] Finished in 0.846 seconds with exit status 0 (successful).
+  INFO [726b3fd7] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs as prospero@prosperousnepal.com
+ DEBUG [726b3fd7] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs
+  INFO [03db5b8d] Finished in 0.803 seconds with exit status 0 (successful).
+ DEBUG [29c31070] Running [ -f /home/prospero/public_html/blog/current/REVISION ] as prospero@prosperousnepal.com
+ DEBUG [29c31070] Command: [ -f /home/prospero/public_html/blog/current/REVISION ]
+ DEBUG [733c0aae] Finished in 0.813 seconds with exit status 1 (failed).
+ DEBUG [55b5547b] Running [ -f /home/prospero/public_html/blog/repo/HEAD ] as prospero@prosperousnepal.com
+ DEBUG [55b5547b] Command: [ -f /home/prospero/public_html/blog/repo/HEAD ]
+ DEBUG [bda29970] Finished in 0.817 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/prospero/public_html/blog/repo
+ DEBUG [064445b8] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [064445b8] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [45f1273d] Finished in 0.840 seconds with exit status 0 (successful).
+  INFO [d6a2b5b9] Running /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git as prospero@prosperousnepal.com
+ DEBUG [d6a2b5b9] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git )
+  INFO [e2cf9d23] Finished in 0.844 seconds with exit status 0 (successful).
+  INFO [1db3701d] Running /usr/bin/env git remote update --prune as prospero@prosperousnepal.com
+ DEBUG [1db3701d] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7c16861d] 	Fetching origin
+  INFO [7c16861d] Finished in 1.357 seconds with exit status 0 (successful).
+ DEBUG [0465199c] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [0465199c] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [3f4a1a7e] Finished in 0.818 seconds with exit status 0 (successful).
+  INFO [c8ed69b4] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114043 as prospero@prosperousnepal.com
+ DEBUG [c8ed69b4] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114043 )
+  INFO [e07e7ae6] Finished in 0.923 seconds with exit status 0 (successful).
+  INFO [2b3298b3] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110114043 as prospero@prosperousnepal.com
+ DEBUG [2b3298b3] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110114043 )
+  INFO [d84dc3a5] Finished in 1.120 seconds with exit status 0 (successful).
+ DEBUG [7b62d0c0] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [7b62d0c0] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [dd7d9293] Finished in 0.834 seconds with exit status 0 (successful).
+ DEBUG [27ca2587] Running /usr/bin/env git rev-list --max-count=1 master as prospero@prosperousnepal.com
+ DEBUG [27ca2587] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [c18c0fc2] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b
+ DEBUG [c18c0fc2] Finished in 0.822 seconds with exit status 0 (successful).
+ DEBUG [ca473f04] Running if test ! -d /home/prospero/public_html/blog/releases/20190110114043; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110114043'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [ca473f04] Command: if test ! -d /home/prospero/public_html/blog/releases/20190110114043; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110114043'" 1>&2; false; fi
+ DEBUG [30f80826] Finished in 0.836 seconds with exit status 0 (successful).
+  INFO [35ae103a] Running /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION as prospero@prosperousnepal.com
+ DEBUG [35ae103a] Command: cd /home/prospero/public_html/blog/releases/20190110114043 && /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION
+  INFO [c263825c] Finished in 0.808 seconds with exit status 0 (successful).
+  INFO [5b620800] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114043/storage /home/prospero/public_html/blog/releases/20190110114043/storage/framework as prospero@prosperousnepal.com
+ DEBUG [5b620800] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114043/storage /home/prospero/public_html/blog/releases/20190110114043/storage/framework
+  INFO [8f094ad0] Finished in 0.991 seconds with exit status 0 (successful).
+ DEBUG [71fad804] Running [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [71fad804] Command: [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/app ]
+ DEBUG [ef109807] Finished in 0.866 seconds with exit status 1 (failed).
+ DEBUG [d7f8a6a9] Running [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [d7f8a6a9] Command: [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/app ]
+ DEBUG [6535292f] Finished in 0.791 seconds with exit status 0 (successful).
+  INFO [30fc3f68] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/app as prospero@prosperousnepal.com
+ DEBUG [30fc3f68] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/app
+  INFO [1443736d] Finished in 0.901 seconds with exit status 0 (successful).
+  INFO [f033cbf4] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110114043/storage/app as prospero@prosperousnepal.com
+ DEBUG [f033cbf4] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110114043/storage/app
+  INFO [7fb680dd] Finished in 0.865 seconds with exit status 0 (successful).
+ DEBUG [a1ebc3d8] Running [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [a1ebc3d8] Command: [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache ]
+ DEBUG [7cb8d387] Finished in 0.871 seconds with exit status 1 (failed).
+ DEBUG [f5554593] Running [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [f5554593] Command: [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache ]
+ DEBUG [d79857fb] Finished in 0.818 seconds with exit status 0 (successful).
+  INFO [51b3be74] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [51b3be74] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache
+  INFO [0e3935bb] Finished in 0.918 seconds with exit status 0 (successful).
+  INFO [904b99ed] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [904b99ed] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110114043/storage/framework/cache
+  INFO [f7b05019] Finished in 0.819 seconds with exit status 0 (successful).
+ DEBUG [19eb9069] Running [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [19eb9069] Command: [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions ]
+ DEBUG [da3f8e15] Finished in 1.021 seconds with exit status 1 (failed).
+ DEBUG [459cdbb5] Running [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [459cdbb5] Command: [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions ]
+ DEBUG [61aa61e5] Finished in 1.023 seconds with exit status 0 (successful).
+  INFO [98d1cadb] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [98d1cadb] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions
+  INFO [b5d80379] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [7f37a897] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [7f37a897] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110114043/storage/framework/sessions
+  INFO [511590f4] Finished in 0.918 seconds with exit status 0 (successful).
+ DEBUG [3345eb0e] Running [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [3345eb0e] Command: [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views ]
+ DEBUG [6056bbf2] Finished in 0.923 seconds with exit status 1 (failed).
+ DEBUG [412ae6d2] Running [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [412ae6d2] Command: [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views ]
+ DEBUG [0298d9c8] Finished in 0.889 seconds with exit status 0 (successful).
+  INFO [6cfa7692] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [6cfa7692] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views
+  INFO [c4114e8b] Finished in 0.826 seconds with exit status 0 (successful).
+  INFO [b3d6ea8d] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [b3d6ea8d] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110114043/storage/framework/views
+  INFO [ceed7ca1] Finished in 0.946 seconds with exit status 0 (successful).
+ DEBUG [3af21851] Running [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [3af21851] Command: [ -L /home/prospero/public_html/blog/releases/20190110114043/storage/logs ]
+ DEBUG [ec489871] Finished in 0.817 seconds with exit status 1 (failed).
+ DEBUG [6f48b3fb] Running [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [6f48b3fb] Command: [ -d /home/prospero/public_html/blog/releases/20190110114043/storage/logs ]
+ DEBUG [1b30ef29] Finished in 0.851 seconds with exit status 0 (successful).
+  INFO [02c97135] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/logs as prospero@prosperousnepal.com
+ DEBUG [02c97135] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114043/storage/logs
+  INFO [79810e69] Finished in 0.798 seconds with exit status 0 (successful).
+  INFO [ce6aa56e] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110114043/storage/logs as prospero@prosperousnepal.com
+ DEBUG [ce6aa56e] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110114043/storage/logs
+  INFO [2e13e6ed] Finished in 1.010 seconds with exit status 0 (successful).
+  INFO [aa37b2a8] Running /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110114043/bootstrap/cache/ as prospero@prosperousnepal.com
+ DEBUG [aa37b2a8] Command: /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110114043/bootstrap/cache/
+  INFO [6c292a06] Finished in 0.747 seconds with exit status 0 (successful).
+  INFO [ff2b65a8] Running /usr/bin/env chgrp -R www-data /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110114043/bootstrap/cache/ as prospero@prosperousnepal.com
+ DEBUG [ff2b65a8] Command: /usr/bin/env chgrp -R www-data /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110114043/bootstrap/cache/
+ DEBUG [b87fba22] 	chgrp: invalid group: ‘www-data’
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:28:33 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3e6c0401] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [3e6c0401] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:29:10 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a416938e] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [a416938e] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:29:52 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [26986e8a] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [26986e8a] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:30:47 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [39ee74b0] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [39ee74b0] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:32:16 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c448dcda] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [c448dcda] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cc0f5d73] Finished in 6.903 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [3009b0b2] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [3009b0b2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [772d09a0] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [228ad2b0] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [228ad2b0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [c8a16608] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [c8a16608] Finished in 1.429 seconds with exit status 0 (successful).
+  INFO [fd53a065] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases as prospero@prosperousnepal.com
+ DEBUG [fd53a065] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases
+  INFO [442d8753] Finished in 1.019 seconds with exit status 0 (successful).
+  INFO [993aee77] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs as prospero@prosperousnepal.com
+ DEBUG [993aee77] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs
+  INFO [3b0fe6a8] Finished in 0.860 seconds with exit status 0 (successful).
+ DEBUG [a0107699] Running [ -f /home/prospero/public_html/blog/current/REVISION ] as prospero@prosperousnepal.com
+ DEBUG [a0107699] Command: [ -f /home/prospero/public_html/blog/current/REVISION ]
+ DEBUG [bc2c874b] Finished in 0.878 seconds with exit status 1 (failed).
+ DEBUG [440063ce] Running [ -f /home/prospero/public_html/blog/repo/HEAD ] as prospero@prosperousnepal.com
+ DEBUG [440063ce] Command: [ -f /home/prospero/public_html/blog/repo/HEAD ]
+ DEBUG [c010eaba] Finished in 1.018 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/prospero/public_html/blog/repo
+ DEBUG [1c817547] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [1c817547] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [c0869536] Finished in 1.022 seconds with exit status 0 (successful).
+  INFO [5525631e] Running /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git as prospero@prosperousnepal.com
+ DEBUG [5525631e] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git )
+  INFO [eddb9568] Finished in 0.919 seconds with exit status 0 (successful).
+  INFO [2ab243c9] Running /usr/bin/env git remote update --prune as prospero@prosperousnepal.com
+ DEBUG [2ab243c9] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [87fdad4c] 	Fetching origin
+  INFO [87fdad4c] Finished in 1.373 seconds with exit status 0 (successful).
+ DEBUG [97bf7f6b] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [97bf7f6b] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [537f25b7] Finished in 0.876 seconds with exit status 0 (successful).
+  INFO [6c9a299d] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114730 as prospero@prosperousnepal.com
+ DEBUG [6c9a299d] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114730 )
+  INFO [7a0c2ed1] Finished in 0.919 seconds with exit status 0 (successful).
+  INFO [30a2488c] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110114730 as prospero@prosperousnepal.com
+ DEBUG [30a2488c] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110114730 )
+  INFO [c714ae90] Finished in 1.022 seconds with exit status 0 (successful).
+ DEBUG [448ebea5] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [448ebea5] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [715173a4] Finished in 0.919 seconds with exit status 0 (successful).
+ DEBUG [618e6f8e] Running /usr/bin/env git rev-list --max-count=1 master as prospero@prosperousnepal.com
+ DEBUG [618e6f8e] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [173a61a2] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b
+ DEBUG [173a61a2] Finished in 0.880 seconds with exit status 0 (successful).
+ DEBUG [d29e1e5c] Running if test ! -d /home/prospero/public_html/blog/releases/20190110114730; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110114730'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [d29e1e5c] Command: if test ! -d /home/prospero/public_html/blog/releases/20190110114730; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110114730'" 1>&2; false; fi
+ DEBUG [462636f5] Finished in 0.859 seconds with exit status 0 (successful).
+  INFO [01b2c7d6] Running /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION as prospero@prosperousnepal.com
+ DEBUG [01b2c7d6] Command: cd /home/prospero/public_html/blog/releases/20190110114730 && /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION
+  INFO [ee839f60] Finished in 0.745 seconds with exit status 0 (successful).
+  INFO [c5291ad2] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114730/storage /home/prospero/public_html/blog/releases/20190110114730/storage/framework as prospero@prosperousnepal.com
+ DEBUG [c5291ad2] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110114730/storage /home/prospero/public_html/blog/releases/20190110114730/storage/framework
+  INFO [26041def] Finished in 0.886 seconds with exit status 0 (successful).
+ DEBUG [ecdefbd3] Running [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [ecdefbd3] Command: [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/app ]
+ DEBUG [364eb5c0] Finished in 0.829 seconds with exit status 1 (failed).
+ DEBUG [7ad35fcc] Running [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [7ad35fcc] Command: [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/app ]
+ DEBUG [85caa3ae] Finished in 0.816 seconds with exit status 0 (successful).
+  INFO [1b07e6df] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/app as prospero@prosperousnepal.com
+ DEBUG [1b07e6df] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/app
+  INFO [d3e10d3f] Finished in 0.814 seconds with exit status 0 (successful).
+  INFO [48c0de26] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110114730/storage/app as prospero@prosperousnepal.com
+ DEBUG [48c0de26] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110114730/storage/app
+  INFO [6694ad8b] Finished in 0.914 seconds with exit status 0 (successful).
+ DEBUG [ed1f21a2] Running [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [ed1f21a2] Command: [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache ]
+ DEBUG [6279c482] Finished in 0.920 seconds with exit status 1 (failed).
+ DEBUG [c25acb77] Running [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [c25acb77] Command: [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache ]
+ DEBUG [2c896bf2] Finished in 0.878 seconds with exit status 0 (successful).
+  INFO [b8a84c8c] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [b8a84c8c] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache
+  INFO [b5b52d52] Finished in 0.790 seconds with exit status 0 (successful).
+  INFO [6afb8cbf] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [6afb8cbf] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110114730/storage/framework/cache
+  INFO [a3b45d82] Finished in 0.886 seconds with exit status 0 (successful).
+ DEBUG [3f6b1f4e] Running [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [3f6b1f4e] Command: [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions ]
+ DEBUG [12562047] Finished in 0.742 seconds with exit status 1 (failed).
+ DEBUG [3cd86565] Running [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [3cd86565] Command: [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions ]
+ DEBUG [c6eac553] Finished in 0.823 seconds with exit status 0 (successful).
+  INFO [6e4e97a1] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [6e4e97a1] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions
+  INFO [ab5a93d3] Finished in 0.785 seconds with exit status 0 (successful).
+  INFO [caac40af] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [caac40af] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110114730/storage/framework/sessions
+  INFO [ae831324] Finished in 0.919 seconds with exit status 0 (successful).
+ DEBUG [1aaa3dc4] Running [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [1aaa3dc4] Command: [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views ]
+ DEBUG [b01eed79] Finished in 0.926 seconds with exit status 1 (failed).
+ DEBUG [df2094ca] Running [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [df2094ca] Command: [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views ]
+ DEBUG [b468fde8] Finished in 0.918 seconds with exit status 0 (successful).
+  INFO [e6f2f7da] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [e6f2f7da] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views
+  INFO [d0542c1f] Finished in 0.924 seconds with exit status 0 (successful).
+  INFO [2323c87b] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [2323c87b] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110114730/storage/framework/views
+  INFO [225f3711] Finished in 1.018 seconds with exit status 0 (successful).
+ DEBUG [1bf2ac75] Running [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [1bf2ac75] Command: [ -L /home/prospero/public_html/blog/releases/20190110114730/storage/logs ]
+ DEBUG [fc928aa6] Finished in 0.849 seconds with exit status 1 (failed).
+ DEBUG [20886bec] Running [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [20886bec] Command: [ -d /home/prospero/public_html/blog/releases/20190110114730/storage/logs ]
+ DEBUG [73f53160] Finished in 0.887 seconds with exit status 0 (successful).
+  INFO [d1d12709] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/logs as prospero@prosperousnepal.com
+ DEBUG [d1d12709] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110114730/storage/logs
+  INFO [6df1f6f3] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [62bc82e4] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110114730/storage/logs as prospero@prosperousnepal.com
+ DEBUG [62bc82e4] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110114730/storage/logs
+  INFO [f45ebdca] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [dfdd2f27] Running /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110114730/bootstrap/cache/ as prospero@prosperousnepal.com
+ DEBUG [dfdd2f27] Command: /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110114730/bootstrap/cache/
+  INFO [c9f369a2] Finished in 0.902 seconds with exit status 0 (successful).
+  INFO [881e5301] Running /usr/bin/env cp /var/www/secrets/.env /home/prospero/public_html/blog/releases/20190110114730/.env as prospero@prosperousnepal.com
+ DEBUG [881e5301] Command: /usr/bin/env cp /var/www/secrets/.env /home/prospero/public_html/blog/releases/20190110114730/.env
+ DEBUG [e86cb42d] 	cp: cannot stat ‘/var/www/secrets/.env’: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:37:38 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3b2dbdd3] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [3b2dbdd3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [151c0738] Finished in 17.216 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [954d09b3] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [954d09b3] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [6caebf70] Finished in 0.801 seconds with exit status 0 (successful).
+  INFO [36ee3cf7] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [36ee3cf7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [acf3d024] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [acf3d024] Finished in 1.509 seconds with exit status 0 (successful).
+  INFO [00c1801e] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases as prospero@prosperousnepal.com
+ DEBUG [00c1801e] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases
+  INFO [2edddcdd] Finished in 0.848 seconds with exit status 0 (successful).
+  INFO [8f9988ff] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs as prospero@prosperousnepal.com
+ DEBUG [8f9988ff] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs
+  INFO [578ed7d0] Finished in 0.881 seconds with exit status 0 (successful).
+ DEBUG [f05cae01] Running [ -f /home/prospero/public_html/blog/current/REVISION ] as prospero@prosperousnepal.com
+ DEBUG [f05cae01] Command: [ -f /home/prospero/public_html/blog/current/REVISION ]
+ DEBUG [b56cf53d] Finished in 0.919 seconds with exit status 1 (failed).
+ DEBUG [eb21b6cd] Running [ -f /home/prospero/public_html/blog/repo/HEAD ] as prospero@prosperousnepal.com
+ DEBUG [eb21b6cd] Command: [ -f /home/prospero/public_html/blog/repo/HEAD ]
+ DEBUG [6c17e065] Finished in 0.830 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/prospero/public_html/blog/repo
+ DEBUG [0a084fc8] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [0a084fc8] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [b35b0bb8] Finished in 0.835 seconds with exit status 0 (successful).
+  INFO [8bf692f8] Running /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git as prospero@prosperousnepal.com
+ DEBUG [8bf692f8] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git )
+  INFO [6c5a8f8c] Finished in 0.885 seconds with exit status 0 (successful).
+  INFO [8e6f4e0a] Running /usr/bin/env git remote update --prune as prospero@prosperousnepal.com
+ DEBUG [8e6f4e0a] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [139d5bae] 	Fetching origin
+  INFO [139d5bae] Finished in 1.540 seconds with exit status 0 (successful).
+ DEBUG [da1a1a0d] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [da1a1a0d] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [ea2af47d] Finished in 0.915 seconds with exit status 0 (successful).
+  INFO [0a00984f] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110115302 as prospero@prosperousnepal.com
+ DEBUG [0a00984f] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110115302 )
+  INFO [d89ab65e] Finished in 0.917 seconds with exit status 0 (successful).
+  INFO [c49aad6c] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110115302 as prospero@prosperousnepal.com
+ DEBUG [c49aad6c] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110115302 )
+  INFO [52fe90c0] Finished in 1.008 seconds with exit status 0 (successful).
+ DEBUG [535ac794] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [535ac794] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [0adfd503] Finished in 0.795 seconds with exit status 0 (successful).
+ DEBUG [1817cf93] Running /usr/bin/env git rev-list --max-count=1 master as prospero@prosperousnepal.com
+ DEBUG [1817cf93] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [a2897380] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b
+ DEBUG [a2897380] Finished in 0.859 seconds with exit status 0 (successful).
+ DEBUG [ac8defab] Running if test ! -d /home/prospero/public_html/blog/releases/20190110115302; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110115302'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [ac8defab] Command: if test ! -d /home/prospero/public_html/blog/releases/20190110115302; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110115302'" 1>&2; false; fi
+ DEBUG [121efef9] Finished in 0.709 seconds with exit status 0 (successful).
+  INFO [0cae9fe8] Running /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION as prospero@prosperousnepal.com
+ DEBUG [0cae9fe8] Command: cd /home/prospero/public_html/blog/releases/20190110115302 && /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION
+  INFO [3fc84aae] Finished in 0.925 seconds with exit status 0 (successful).
+  INFO [f454a419] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110115302/storage /home/prospero/public_html/blog/releases/20190110115302/storage/framework as prospero@prosperousnepal.com
+ DEBUG [f454a419] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110115302/storage /home/prospero/public_html/blog/releases/20190110115302/storage/framework
+  INFO [77170c20] Finished in 0.917 seconds with exit status 0 (successful).
+ DEBUG [d0464890] Running [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [d0464890] Command: [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/app ]
+ DEBUG [db0d61db] Finished in 0.839 seconds with exit status 1 (failed).
+ DEBUG [9c9fdc7a] Running [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [9c9fdc7a] Command: [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/app ]
+ DEBUG [379df007] Finished in 0.814 seconds with exit status 0 (successful).
+  INFO [c1315c97] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/app as prospero@prosperousnepal.com
+ DEBUG [c1315c97] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/app
+  INFO [76fc6011] Finished in 0.822 seconds with exit status 0 (successful).
+  INFO [3635c6d6] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110115302/storage/app as prospero@prosperousnepal.com
+ DEBUG [3635c6d6] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110115302/storage/app
+  INFO [fe497908] Finished in 0.833 seconds with exit status 0 (successful).
+ DEBUG [a6a6607d] Running [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [a6a6607d] Command: [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache ]
+ DEBUG [b8556f1a] Finished in 0.804 seconds with exit status 1 (failed).
+ DEBUG [42b4bb33] Running [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [42b4bb33] Command: [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache ]
+ DEBUG [18b81755] Finished in 0.829 seconds with exit status 0 (successful).
+  INFO [a2b0b50e] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [a2b0b50e] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache
+  INFO [14258ab4] Finished in 0.703 seconds with exit status 0 (successful).
+  INFO [6a302000] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [6a302000] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110115302/storage/framework/cache
+  INFO [180d5a4c] Finished in 0.807 seconds with exit status 0 (successful).
+ DEBUG [3b59cee2] Running [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [3b59cee2] Command: [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions ]
+ DEBUG [0f8a3f25] Finished in 0.710 seconds with exit status 1 (failed).
+ DEBUG [ad861fef] Running [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [ad861fef] Command: [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions ]
+ DEBUG [cd108cfa] Finished in 0.824 seconds with exit status 0 (successful).
+  INFO [1a506260] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [1a506260] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions
+  INFO [be964e64] Finished in 0.908 seconds with exit status 0 (successful).
+  INFO [c5a9e307] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [c5a9e307] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110115302/storage/framework/sessions
+  INFO [799ec23a] Finished in 0.919 seconds with exit status 0 (successful).
+ DEBUG [f85e7eda] Running [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [f85e7eda] Command: [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views ]
+ DEBUG [9c8fbca2] Finished in 0.920 seconds with exit status 1 (failed).
+ DEBUG [f25e5909] Running [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [f25e5909] Command: [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views ]
+ DEBUG [64fb770f] Finished in 0.848 seconds with exit status 0 (successful).
+  INFO [b4f39131] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [b4f39131] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views
+  INFO [842d3bc7] Finished in 0.789 seconds with exit status 0 (successful).
+  INFO [2baac497] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [2baac497] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110115302/storage/framework/views
+  INFO [2a5e2cee] Finished in 0.854 seconds with exit status 0 (successful).
+ DEBUG [e28bb2b6] Running [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [e28bb2b6] Command: [ -L /home/prospero/public_html/blog/releases/20190110115302/storage/logs ]
+ DEBUG [209600d0] Finished in 0.795 seconds with exit status 1 (failed).
+ DEBUG [7659165d] Running [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [7659165d] Command: [ -d /home/prospero/public_html/blog/releases/20190110115302/storage/logs ]
+ DEBUG [fc6a3d6d] Finished in 1.011 seconds with exit status 0 (successful).
+  INFO [a036e388] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/logs as prospero@prosperousnepal.com
+ DEBUG [a036e388] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110115302/storage/logs
+  INFO [f6cae317] Finished in 0.920 seconds with exit status 0 (successful).
+  INFO [3af8662a] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110115302/storage/logs as prospero@prosperousnepal.com
+ DEBUG [3af8662a] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110115302/storage/logs
+  INFO [a2c94e86] Finished in 0.919 seconds with exit status 0 (successful).
+  INFO [7048bb99] Running /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110115302/bootstrap/cache/ as prospero@prosperousnepal.com
+ DEBUG [7048bb99] Command: /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110115302/bootstrap/cache/
+  INFO [ff9f63a7] Finished in 0.849 seconds with exit status 0 (successful).
+  INFO [1088f849] Running /usr/bin/env cp /var/www/blog/.env /home/prospero/public_html/blog/releases/20190110115302/.env as prospero@prosperousnepal.com
+ DEBUG [1088f849] Command: /usr/bin/env cp /var/www/blog/.env /home/prospero/public_html/blog/releases/20190110115302/.env
+ DEBUG [a939e4d2] 	cp: cannot stat ‘/var/www/blog/.env’: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-10 17:49:33 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f7892099] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [f7892099] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ab3a378d] Finished in 14.913 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-introcept.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-introcept.sh 100.0%
+  INFO [cddab4c2] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh as prospero@prosperousnepal.com
+ DEBUG [cddab4c2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-introcept.sh
+  INFO [54bfb16c] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [312efa31] Running /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [312efa31] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git ls-remote https://github.com/manjulsigdel/blog.git HEAD )
+ DEBUG [bf16ce26] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b	HEAD
+  INFO [bf16ce26] Finished in 1.432 seconds with exit status 0 (successful).
+  INFO [29c698de] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases as prospero@prosperousnepal.com
+ DEBUG [29c698de] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared /home/prospero/public_html/blog/releases
+  INFO [7c29c838] Finished in 0.916 seconds with exit status 0 (successful).
+  INFO [0b84cd9a] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs as prospero@prosperousnepal.com
+ DEBUG [0b84cd9a] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/shared/storage/logs
+  INFO [bd1d6311] Finished in 0.913 seconds with exit status 0 (successful).
+ DEBUG [9c843a44] Running [ -f /home/prospero/public_html/blog/current/REVISION ] as prospero@prosperousnepal.com
+ DEBUG [9c843a44] Command: [ -f /home/prospero/public_html/blog/current/REVISION ]
+ DEBUG [444dda0c] Finished in 0.919 seconds with exit status 1 (failed).
+ DEBUG [ef806b70] Running [ -f /home/prospero/public_html/blog/repo/HEAD ] as prospero@prosperousnepal.com
+ DEBUG [ef806b70] Command: [ -f /home/prospero/public_html/blog/repo/HEAD ]
+ DEBUG [9547a217] Finished in 0.825 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/prospero/public_html/blog/repo
+ DEBUG [95da2856] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [95da2856] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [5c9a8c99] Finished in 0.959 seconds with exit status 0 (successful).
+  INFO [bbd0d160] Running /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git as prospero@prosperousnepal.com
+ DEBUG [bbd0d160] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote set-url origin https://github.com/manjulsigdel/blog.git )
+  INFO [ba354da2] Finished in 0.871 seconds with exit status 0 (successful).
+  INFO [7e1214d1] Running /usr/bin/env git remote update --prune as prospero@prosperousnepal.com
+ DEBUG [7e1214d1] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [2ccf05e5] 	Fetching origin
+  INFO [2ccf05e5] Finished in 1.536 seconds with exit status 0 (successful).
+ DEBUG [a5f0d318] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [a5f0d318] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [3aa6ba01] Finished in 0.846 seconds with exit status 0 (successful).
+  INFO [8b12c8b5] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110120455 as prospero@prosperousnepal.com
+ DEBUG [8b12c8b5] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110120455 )
+  INFO [c0feb837] Finished in 1.893 seconds with exit status 0 (successful).
+  INFO [4cbe7156] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110120455 as prospero@prosperousnepal.com
+ DEBUG [4cbe7156] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/prospero/public_html/blog/releases/20190110120455 )
+  INFO [6e4f0391] Finished in 1.963 seconds with exit status 0 (successful).
+ DEBUG [3aef9a8d] Running if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [3aef9a8d] Command: if test ! -d /home/prospero/public_html/blog/repo; then echo "Directory does not exist '/home/prospero/public_html/blog/repo'" 1>&2; false; fi
+ DEBUG [408c3448] Finished in 1.225 seconds with exit status 0 (successful).
+ DEBUG [e9ddd516] Running /usr/bin/env git rev-list --max-count=1 master as prospero@prosperousnepal.com
+ DEBUG [e9ddd516] Command: cd /home/prospero/public_html/blog/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-introcept.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [1b00ab00] 	b7386e9a1afc08a25ac320aa91bad0b03f557b5b
+ DEBUG [1b00ab00] Finished in 1.133 seconds with exit status 0 (successful).
+ DEBUG [5e06e996] Running if test ! -d /home/prospero/public_html/blog/releases/20190110120455; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110120455'" 1>&2; false; fi as prospero@prosperousnepal.com
+ DEBUG [5e06e996] Command: if test ! -d /home/prospero/public_html/blog/releases/20190110120455; then echo "Directory does not exist '/home/prospero/public_html/blog/releases/20190110120455'" 1>&2; false; fi
+ DEBUG [d0b57744] Finished in 1.013 seconds with exit status 0 (successful).
+  INFO [724fba9a] Running /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION as prospero@prosperousnepal.com
+ DEBUG [724fba9a] Command: cd /home/prospero/public_html/blog/releases/20190110120455 && /usr/bin/env echo "b7386e9a1afc08a25ac320aa91bad0b03f557b5b" > REVISION
+  INFO [a6624b49] Finished in 0.918 seconds with exit status 0 (successful).
+  INFO [cc7c94a9] Running /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110120455/storage /home/prospero/public_html/blog/releases/20190110120455/storage/framework as prospero@prosperousnepal.com
+ DEBUG [cc7c94a9] Command: /usr/bin/env mkdir -p /home/prospero/public_html/blog/releases/20190110120455/storage /home/prospero/public_html/blog/releases/20190110120455/storage/framework
+  INFO [c40103ea] Finished in 1.432 seconds with exit status 0 (successful).
+ DEBUG [173f2300] Running [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [173f2300] Command: [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/app ]
+ DEBUG [621f876b] Finished in 1.124 seconds with exit status 1 (failed).
+ DEBUG [7bbc9212] Running [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/app ] as prospero@prosperousnepal.com
+ DEBUG [7bbc9212] Command: [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/app ]
+ DEBUG [fe3d8616] Finished in 0.961 seconds with exit status 0 (successful).
+  INFO [7f6f9242] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/app as prospero@prosperousnepal.com
+ DEBUG [7f6f9242] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/app
+  INFO [49e31ef2] Finished in 1.085 seconds with exit status 0 (successful).
+  INFO [84ad8254] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110120455/storage/app as prospero@prosperousnepal.com
+ DEBUG [84ad8254] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/app /home/prospero/public_html/blog/releases/20190110120455/storage/app
+  INFO [32c20d40] Finished in 0.843 seconds with exit status 0 (successful).
+ DEBUG [90b7353d] Running [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [90b7353d] Command: [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache ]
+ DEBUG [fe2b7bdd] Finished in 0.838 seconds with exit status 1 (failed).
+ DEBUG [4d108022] Running [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache ] as prospero@prosperousnepal.com
+ DEBUG [4d108022] Command: [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache ]
+ DEBUG [5dbea573] Finished in 0.794 seconds with exit status 0 (successful).
+  INFO [35539863] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [35539863] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache
+  INFO [92819b74] Finished in 0.818 seconds with exit status 0 (successful).
+  INFO [e2c0ed13] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache as prospero@prosperousnepal.com
+ DEBUG [e2c0ed13] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/cache /home/prospero/public_html/blog/releases/20190110120455/storage/framework/cache
+  INFO [6fc4523a] Finished in 0.795 seconds with exit status 0 (successful).
+ DEBUG [8352bb15] Running [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [8352bb15] Command: [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions ]
+ DEBUG [d36a898e] Finished in 0.854 seconds with exit status 1 (failed).
+ DEBUG [6c744886] Running [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions ] as prospero@prosperousnepal.com
+ DEBUG [6c744886] Command: [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions ]
+ DEBUG [c9fb128f] Finished in 0.807 seconds with exit status 0 (successful).
+  INFO [d69998c4] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [d69998c4] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions
+  INFO [c91a1f54] Finished in 0.897 seconds with exit status 0 (successful).
+  INFO [b92a197e] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions as prospero@prosperousnepal.com
+ DEBUG [b92a197e] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/sessions /home/prospero/public_html/blog/releases/20190110120455/storage/framework/sessions
+  INFO [437537fd] Finished in 0.920 seconds with exit status 0 (successful).
+ DEBUG [08bb3171] Running [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [08bb3171] Command: [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views ]
+ DEBUG [a08e5ce6] Finished in 1.018 seconds with exit status 1 (failed).
+ DEBUG [aefa213a] Running [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views ] as prospero@prosperousnepal.com
+ DEBUG [aefa213a] Command: [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views ]
+ DEBUG [b0950f39] Finished in 0.866 seconds with exit status 0 (successful).
+  INFO [8541f9b3] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [8541f9b3] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views
+  INFO [f50b94b6] Finished in 0.876 seconds with exit status 0 (successful).
+  INFO [8a7543f2] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views as prospero@prosperousnepal.com
+ DEBUG [8a7543f2] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/framework/views /home/prospero/public_html/blog/releases/20190110120455/storage/framework/views
+  INFO [083ea53d] Finished in 0.872 seconds with exit status 0 (successful).
+ DEBUG [afcdc14c] Running [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [afcdc14c] Command: [ -L /home/prospero/public_html/blog/releases/20190110120455/storage/logs ]
+ DEBUG [af8d802c] Finished in 0.969 seconds with exit status 1 (failed).
+ DEBUG [cb2f97bf] Running [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/logs ] as prospero@prosperousnepal.com
+ DEBUG [cb2f97bf] Command: [ -d /home/prospero/public_html/blog/releases/20190110120455/storage/logs ]
+ DEBUG [97957e9c] Finished in 0.848 seconds with exit status 0 (successful).
+  INFO [7838e523] Running /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/logs as prospero@prosperousnepal.com
+ DEBUG [7838e523] Command: /usr/bin/env rm -rf /home/prospero/public_html/blog/releases/20190110120455/storage/logs
+  INFO [98f111e2] Finished in 0.821 seconds with exit status 0 (successful).
+  INFO [626efe67] Running /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110120455/storage/logs as prospero@prosperousnepal.com
+ DEBUG [626efe67] Command: /usr/bin/env ln -s /home/prospero/public_html/blog/shared/storage/logs /home/prospero/public_html/blog/releases/20190110120455/storage/logs
+  INFO [64228070] Finished in 0.990 seconds with exit status 0 (successful).
+  INFO [fe7b648b] Running /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110120455/bootstrap/cache/ as prospero@prosperousnepal.com
+ DEBUG [fe7b648b] Command: /usr/bin/env chmod -R ug+rwx /home/prospero/public_html/blog/shared/storage/ /home/prospero/public_html/blog/releases/20190110120455/bootstrap/cache/
+  INFO [cc7bae37] Finished in 1.026 seconds with exit status 0 (successful).
+  INFO [69169181] Running /usr/bin/env cp /home/introcept/Projects/blog/.env /home/prospero/public_html/blog/releases/20190110120455/.env as prospero@prosperousnepal.com
+ DEBUG [69169181] Command: /usr/bin/env cp /home/introcept/Projects/blog/.env /home/prospero/public_html/blog/releases/20190110120455/.env
+ DEBUG [1bbe97a8] 	cp: cannot stat ‘/home/introcept/Projects/blog/.env’: No such file or directory

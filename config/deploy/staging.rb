@@ -59,8 +59,13 @@ server "prosperousnepal.com", user: "prospero", roles: %w{app db web}
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+set :deploy_to, '/home/prospero/public_html/blog'
+server "prosperousnepal.com", user: 'prospero', roles: %w{web app laravel composer}
+set :ssh_options, {
+    forward_agent: false,
+  }
+
 set :env, 'staging'
 set :app_debug, 'false'
-set :deploy_to, '/home/prospero/public_html/#{fetch(:application)}/app/staging'
-set :shared_path, '/home/prospero/public_html/#{fetch(:application)}/app/staging/shared'
-set :overlay_path, '/home/prospero/public_html/#{fetch(:application)}/app/staging/overlay'
+set :shared_path, '/home/prospero/public_html/#{fetch(:application)}/shared'
+set :overlay_path, '/home/prospero/public_html/#{fetch(:application)}/overlay'
