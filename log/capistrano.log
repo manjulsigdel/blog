@@ -1,0 +1,473 @@
+# Logfile created on 2019-01-08 23:50:33 +0545 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-08 23:50:33 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9214cfc5] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [9214cfc5] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [851e9ba2] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [851e9ba2] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [851e9ba2] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+ DEBUG [851e9ba2] 		LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [851e9ba2] Finished in 2.743 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-manjul.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-manjul.sh 100.0%
+  INFO [c7d26269] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh as prospero@prosperousnepal.com
+ DEBUG [c7d26269] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh
+ DEBUG [e29d2aa7] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+ DEBUG [e29d2aa7] 		LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [e29d2aa7] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [e29d2aa7] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [e29d2aa7] Finished in 0.737 seconds with exit status 0 (successful).
+  INFO [ff5f36d7] Running /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [ff5f36d7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-manjul.sh" ; /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD )
+ DEBUG [d1be1e20] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [d1be1e20] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [d1be1e20] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [d1be1e20] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [d1be1e20] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [d1be1e20] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [d1be1e20] 	fatal: unable to fork
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-09 00:08:23 +0545 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [9e0d91d6] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [9e0d91d6] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [c7f71c07] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [c7f71c07] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [c7f71c07] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+ DEBUG [c7f71c07] 		LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [c7f71c07] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [c7f71c07] Finished in 6.035 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-manjul.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-manjul.sh 100.0%
+  INFO [3ba1de2a] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh as prospero@prosperousnepal.com
+ DEBUG [3ba1de2a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh
+ DEBUG [44f527d1] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+ DEBUG [44f527d1] 		LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [44f527d1] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+ DEBUG [44f527d1] 		LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [44f527d1] Finished in 0.834 seconds with exit status 0 (successful).
+  INFO [5966132c] Running /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [5966132c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-manjul.sh" ; /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD )
+ DEBUG [269a0189] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+ DEBUG [269a0189] 		LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [269a0189] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [269a0189] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [269a0189] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [269a0189] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [269a0189] 	fatal: unable to fork
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-09 00:23:16 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f93ea3a4] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [f93ea3a4] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [da3b9420] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+ DEBUG [da3b9420] 		LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [da3b9420] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [da3b9420] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+ DEBUG [da3b9420] 		LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [da3b9420] Finished in 2.704 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-manjul.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-manjul.sh 100.0%
+  INFO [28f6d9bf] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh as prospero@prosperousnepal.com
+ DEBUG [28f6d9bf] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh
+ DEBUG [f33f020b] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [f33f020b] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+ DEBUG [f33f020b] 		LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [f33f020b] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [f33f020b] Finished in 0.706 seconds with exit status 0 (successful).
+  INFO [ae728842] Running /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [ae728842] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-manjul.sh" ; /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD )
+ DEBUG [33da6fb5] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+ DEBUG [33da6fb5] 		LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [33da6fb5] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [33da6fb5] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+ DEBUG [33da6fb5] 		LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [33da6fb5] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [33da6fb5] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [33da6fb5] 	fatal: unable to fork
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-01-09 21:36:57 +0545 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1434653a] Running /usr/bin/env mkdir -p /tmp as prospero@prosperousnepal.com
+ DEBUG [1434653a] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [f7eea29b] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [f7eea29b] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+ DEBUG [f7eea29b] 		LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [f7eea29b] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [f7eea29b] Finished in 3.051 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-blog-staging-manjul.sh 0.0%
+  INFO Uploading /tmp/git-ssh-blog-staging-manjul.sh 100.0%
+  INFO [8c2deabf] Running /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh as prospero@prosperousnepal.com
+ DEBUG [8c2deabf] Command: /usr/bin/env chmod 700 /tmp/git-ssh-blog-staging-manjul.sh
+ DEBUG [6d6f7040] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [6d6f7040] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+  INFO [6d6f7040] Finished in 0.946 seconds with exit status 0 (successful).
+  INFO [319eb50d] Running /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD as prospero@prosperousnepal.com
+ DEBUG [319eb50d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-blog-staging-manjul.sh" ; /usr/bin/env git ls-remote git@github.com:manjulsigdel/blog.git HEAD )
+ DEBUG [917bd216] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+ DEBUG [917bd216] 	perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [917bd216] 	perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_PAPER = "bho_NP",
+	LC_ADDRESS = "bho_NP",
+	LC_MONETARY = "bho_NP",
+	LC_NUMERIC = "bho_NP",
+	LC_TELEPHONE = "bho_NP",
+	LC_IDENTIFICATION = "bho_NP",
+	LC_MEASUREMENT = "bho_NP",
+	LC_CTYPE = "en_US.UTF-8",
+	LC_TIME = "bho_NP",
+	LC_NAME = "bho_NP",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+ DEBUG [917bd216] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [917bd216] 	fatal: cannot exec '/tmp/git-ssh-blog-staging-manjul.sh': Permission denied
+ DEBUG [917bd216] 	fatal: unable to fork

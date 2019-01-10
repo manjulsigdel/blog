@@ -3,7 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-# server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
+server "prosperousnepal.com", user: "prospero", roles: %w{app db web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
@@ -59,3 +59,8 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+set :env, 'staging'
+set :app_debug, 'false'
+set :deploy_to, '/home/prospero/public_html/#{fetch(:application)}/app/staging'
+set :shared_path, '/home/prospero/public_html/#{fetch(:application)}/app/staging/shared'
+set :overlay_path, '/home/prospero/public_html/#{fetch(:application)}/app/staging/overlay'
